@@ -1,0 +1,27 @@
+{
+  "name": "jones-automation-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "formAutomation.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiorSilberman/Jones-Automation-Exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiorSilberman/Jones-Automation-Exercise/issues"
+  },
+  "homepage": "https://github.com/LiorSilberman/Jones-Automation-Exercise#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "puppeteer": "^23.9.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
