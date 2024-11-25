@@ -18,7 +18,7 @@ This project automates the process of submitting a web form using [Puppeteer](ht
 
 ## **Project Structure**
 ```bash
-project/ 
+Jones-Automation-Exercise/ 
 ├── formAutomation.js # Main script to orchestrate the automation 
 ├── config.js # Configuration constants for selectors, file paths, and URLs 
 ├── utils/ # Utility functions 
