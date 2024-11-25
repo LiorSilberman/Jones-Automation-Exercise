@@ -3,11 +3,13 @@
 ### a. Test this UI mock-up, can you find any problems with this screen? (Please pay attention to all functional aspects such as Security, Usability, Performance, etc.).
 
 #### **Security:**
+- Check if the form is using HTTPS to ensure that all data submitted is encrypted.
 - It’s not clear if fields like Card Number or Expiration Date are being validated properly.
 - It’s unclear if the Card Number field masks input (for example, displaying "**** **** **** 1234"). If not, this would be a significant security gap.
 
 #### **Usability:**
 - The "MI" (Middle Initial) field is misaligned and might confuse users. Its purpose is also unclear.
+- Placeholders may not adequately instruct users on what information is required or the format.
 - Dropdowns like "State or Province" and "Expiration Date" could slow down users. Adding a search or autocomplete feature would improve usability.
 - The form does not indicate the currency for the payment amount. This can lead to confusion for users, especially those from international locations.
 
