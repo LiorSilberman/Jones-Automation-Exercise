@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const csvParser = require('csv-parser');
 
+
 /**
  * Reads data from a CSV file.
  */
@@ -15,6 +16,7 @@ function readCSV(filePath) {
             .on('error', (error) => reject(error));
     });
 }
+
 
 /**
  * Creates a unique folder based on client details.

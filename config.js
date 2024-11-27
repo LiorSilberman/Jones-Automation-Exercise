@@ -1,3 +1,9 @@
+/**
+ * Configuration module for the Puppeteer automation script.
+ * 
+ * Contains constants and selectors used throughout the script, including form field selectors,
+ * file paths, screenshot details, and the target site URL.
+ */
 module.exports = {
     SELECTORS: {
         nameInput: 'input[id="name"]',
