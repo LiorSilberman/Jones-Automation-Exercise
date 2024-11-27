@@ -88,7 +88,7 @@ You can customize the following settings in `config.js`:
 
 Install them with:
 ```bash
-npm install puppeteer csv-parser
+npm install puppeteer csv-parser validator
 ```
 
 ---
